@@ -9,7 +9,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Vundle plugins
-if !has("win32")
+if !has("win32") && !has("win32unix")
   Plugin 'Valloric/YouCompleteMe'
 endif
 Plugin 'majutsushi/tagbar'
