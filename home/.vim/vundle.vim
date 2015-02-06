@@ -16,6 +16,9 @@ Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
 Plugin 'scrooloose/nerdtree'
 
+" Syntax Highlighting
+Plugin 'ekalinin/Dockerfile.vim'
+
 " Color schemes for Vundle
 Plugin 'CruizeMissile/Revolution.vim'
 Plugin 'gosukiwi/vim-atom-dark'
