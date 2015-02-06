@@ -172,6 +172,6 @@ augroup END
 
 " Necessary to have a grey highlight on the current line.
 set t_Co=256
-silent colorscheme atom-dark-256
+silent !colorscheme atom-dark-256
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=236 ctermfg=NONE
