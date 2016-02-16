@@ -16,12 +16,14 @@ Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
 Plugin 'scrooloose/nerdtree'
 
-" Syntax Highlighting
-Plugin 'ekalinin/Dockerfile.vim'
-
+<<<<<<< HEAD
 " Fix gvim color schemes for terminal vim.
 Plugin 'godlygeek/csapprox'
 " Plugin 'KevinGoodsell/vim-csexact'
+=======
+" Syntax Highlighting
+Plugin 'ekalinin/Dockerfile.vim'
+>>>>>>> f68690cb92146077f67c37cc24fe2f8130ca7450
 
 " Color schemes for Vundle
 Plugin 'CruizeMissile/Revolution.vim'
