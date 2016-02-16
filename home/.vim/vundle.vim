@@ -16,9 +16,17 @@ Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
 Plugin 'scrooloose/nerdtree'
 
+" Fix gvim color schemes for terminal vim.
+Plugin 'godlygeek/csapprox'
+" Plugin 'KevinGoodsell/vim-csexact'
+
 " Color schemes for Vundle
 Plugin 'CruizeMissile/Revolution.vim'
 Plugin 'gosukiwi/vim-atom-dark'
+Plugin 'dterei/VimCobaltColourScheme'
+
+" Turn on smart pane switching thingy for tmux.
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 " Put the filetype back the way I want it.

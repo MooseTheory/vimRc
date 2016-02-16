@@ -175,3 +175,11 @@ set t_Co=256
 colorscheme atom-dark-256
 set cursorline
 highlight CursorLine cterm=NONE ctermbg=236 ctermfg=NONE
+
+" Automatically close the 'preview' window when leaving insert mode.
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" Turn on paste toggle key with some feedback from vim.wikia.com
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
